@@ -4,7 +4,6 @@ body {
   font-family: 'calibri', sans-serif;
 }
 
-/** HEADER **/
 #header-nav {
   background-color: #a1a190;
   border-radius: 0;
@@ -15,7 +14,7 @@ body {
   padding-top: 12px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'calibri', serif;
   color: black;
   font-size: 1.75em;
@@ -87,7 +86,6 @@ hr{
   margin: 0px;
   color: black;
 }
-/* END HEADER */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -106,46 +104,20 @@ hr{
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 {
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
+    font-size: 5vw; 
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;
   }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
-  /* End Header */
-
 }
